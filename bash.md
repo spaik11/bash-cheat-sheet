@@ -55,5 +55,13 @@
 
 * -v 
 * --global
+
+### **`git commands`**
+
 * `git config --global user.name`
 * `git config --global user.email`
+* `git init` creates a .git file
+* `git status`
+* `git add`
+* `git commit -m "[message]"`
+* `git push -u origin master`
