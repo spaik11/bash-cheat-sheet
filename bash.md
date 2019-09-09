@@ -55,7 +55,7 @@
 * Useful flags:
   * `mv ../filename` move a file from the level above
   * `mv .` move to the current dir
-  * `mv file1.md file 2.md location` move multiple files
+  * `mv file1.md file2.md location` move multiple files
   * `mv file [new file name]` rename file
 ---
 ### **`git commands`**
