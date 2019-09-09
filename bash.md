@@ -5,7 +5,7 @@
 * Usage: `ls [flags] [directory name...]`
 * What it does: Lists all files and directories in the directory
 * Useful flags:
-  * `ls -a` lists ALL files
+  * `-a`: Lists ALL files
 ---
 ### **`pwd`**
 
@@ -34,12 +34,19 @@
 * Usage: `touch [file name...]`
 * What it does: Makes a file or files
 ---
+### **`cp`**
+
+* Usage: `cp [file name...] location`
+* What it does: Copies a file
+* Useful flags:
+  * `-r`: Copies a directory
+---
 ### **`rm`**
 
 * Usage: `rm [flag] [file name... or directory name...]`
 * What it does: Removes files or directories
 * Useful flags: 
-  * `-rf`: removes directories
+  * `-rf`: Removes directories
 ---
 ### **`mv`**
 
@@ -51,12 +58,6 @@
   * `mv file1.md file 2.md location` move multiple files
   * `mv file [new file name]` rename file
 ---
-
-### **`command -v`**
-
-* -v 
-* --global
-
 ### **`git commands`**
 
 * `git config --global user.name`
