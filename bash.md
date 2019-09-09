@@ -2,10 +2,10 @@
 
 ### **`ls`**
 
-* Usage: `ls [flags] [directory names]`
+* Usage: `ls [flags] [directory name...]`
 * What it does: Lists all files and directories in the directory
 * Useful flags:
-    * `ls -a` lists ALL files
+  * `ls -a` lists ALL files
 ---
 ### **`pwd`**
 
@@ -16,40 +16,40 @@
 ### **`cd`**
 
 * Usage: `cd [directory name]`
-* What it does: changes location
+* What it does: Changes location
 * Tips and Tricks: 
-    * `cd -` go back one
-    * `cd ..`  go up one level
-    * `cd ~` go home        
+  * `cd -` go back one
+  * `cd ..`  go up one level
+  * `cd ~` go home        
 ---
 ### **`mkdir`**
 
-* Usage: `mkdir [flag] [directory names]`
-* What it does: makes directory
+* Usage: `mkdir [flag] [directory name...]`
+* What it does: Makes a directory or directories
 * Useful flags:
-  * `-p`: creates a parent directory given a path
+  * `-p`: Makes parent directories given a path
 ---
 ### **`touch`**
 
-* Usage: 
-* What it does: creates a file
-* Useful flags:
+* Usage: `touch [file name...]`
+* What it does: Makes a file or files
 ---
 ### **`rm`**
 
-* Usage: 
-* What it does: removes a file
-* Useful flags:
+* Usage: `rm [flag] [file name... or directory name...]`
+* What it does: Removes files or directories
+* Useful flags: 
+  * `-rf`: removes directories
 ---
 ### **`mv`**
 
-* Usage: `mv file[...] location`
+* Usage: `mv [file...] location`
 * What it does:
 * Useful flags:
-    * `mv ../filename` move a file from the level above
-    * `mv .` move to the current dir
-    * `mv file1.md file 2.md location` move multiple files
-    * `mv file [new file name]` rename file
+  * `mv ../filename` move a file from the level above
+  * `mv .` move to the current dir
+  * `mv file1.md file 2.md location` move multiple files
+  * `mv file [new file name]` rename file
 ---
 
 ### **`command -v`**
@@ -66,3 +66,4 @@
 * `git add`
 * `git commit -m "[message]"`
 * `git push -u origin master`
+  
