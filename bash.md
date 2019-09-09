@@ -2,7 +2,7 @@
 
 ### **`ls`**
 
-* Usage: `ls [flags] [directory name]`
+* Usage: `ls [flags] [directory names]`
 * What it does: Lists all files and directories in the directory
 * Useful flags:
     * `ls -a` lists ALL files
@@ -24,9 +24,10 @@
 ---
 ### **`mkdir`**
 
-* Usage: 
+* Usage: `mkdir [flag] [directory names]`
 * What it does: makes directory
 * Useful flags:
+  * `-p`: creates a parent directory given a path
 ---
 ### **`touch`**
 
